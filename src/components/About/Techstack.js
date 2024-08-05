@@ -4,26 +4,15 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiMongodb,
   DiPython,
-  DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
   SiHtml5,
   SiCss3,
   SiBootstrap,
   SiDjango,
   SiMysql,
-  SiGithub
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
@@ -63,11 +52,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
           <SiMysql />
       </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-          <SiGithub />
-      </Col>
-
       
       {/* <Col xs={4} md={2} className="tech-icons">
         <TbBrandGolang />
