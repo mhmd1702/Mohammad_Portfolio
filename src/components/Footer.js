@@ -4,6 +4,8 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineMail,
+  
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -31,16 +33,7 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            {/* <li className="social-icons">
-              <a
-                href=""
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li> */}
+        
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/mohammad-dantreliya-b82ab0264/"
@@ -51,6 +44,19 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
+
+            <li className="social-icons">
+                <a
+                  href="mailto:dantreliyamhmd@gmail.com"
+                  style={{ color: "white" }}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                 
+                >
+                  <AiOutlineMail />
+                </a>
+              </li>
+
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/_mhmd_1702/"

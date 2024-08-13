@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/mhmd.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -37,24 +38,12 @@ function Home2() {
                 </b>
               </i>
               <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid img-mhmd" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -75,16 +64,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li> */}
+
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/mohammad-dantreliya-b82ab0264/"
@@ -95,6 +75,19 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+
+              <li className="social-icons">
+                <a
+                  href="mailto:dantreliyamhmd@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiOutlineMail />
+                </a>
+              </li>
+
+
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/_mhmd_1702/"
@@ -105,6 +98,7 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
+
             </ul>
           </Col>
         </Row>

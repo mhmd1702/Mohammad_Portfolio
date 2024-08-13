@@ -10,8 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">MOHAMMAD DANTRELIYA </span>
             from <span className="purple"> Ahmedabad, India.</span>
-            {/* <br />
-            I am currently employed as a software developer at Juspay.*/}
+            
             <br /> 
             I have completed a B.Sc in Computer Applications and Information Technology from Ganpat University in Mehsana.
             <br />
